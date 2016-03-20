@@ -1,0 +1,47 @@
+{
+    margin:0;
+    padding-top: 0
+;
+    padding-right: 0
+;
+    padding-left: 0
+;
+    padding-bottom: 0
+;
+}
+header{
+    font-size: 2.5em;
+    background: rgba(166,44,44,1);
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,1);
+}
+
+nav ul
+{
+    background-color: brown;
+    padding: 1px;
+    text-align: center;
+
+}
+nav ul li,nav ul li a{
+    color: white;
+    display: inline-block;
+
+}
+nav ul li a:link,nav ul li a:visited{
+    padding: 30px;
+    text-decoration: double;
+    font-family: "Droid Sans Georgian";
+    text-transform: capitalize;
+    transition: 0.8s;
+   -o-transition: 0.8s;
+    -webkit-transition: 0.8s;
+
+}
+nav ul li a:hover,nav ul li a:active{
+
+    background: rgba(169,61,61,1);
+
+}
