@@ -156,12 +156,28 @@ input {
     outline: none;
 }
 
+input[type="submit"] {
+    padding: 20px;
+}
+
+.cntcinfo {
+    float: right;
+    width: 28%;
+    border-left: 2px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
 input[type="text"] {
     width: 60%;
     display: block;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 2px 20px;
+}
+
+input[type="text"]:focus, textarea:focus {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 textarea {
@@ -172,9 +188,9 @@ textarea {
     background: lightgoldenrodyellow;
     min-height: 200px;
     border-bottom: 1px dotted;
-    padding: 30px;
+    padding: 20px;
 }
 
-span {
-    padding: 15px;
+form.buttonh {
+    padding: 25px;
 }
