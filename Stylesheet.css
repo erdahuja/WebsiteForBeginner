@@ -1,14 +1,4 @@
-{
-    margin:0;
-    padding-top: 0
-;
-    padding-right: 0
-;
-    padding-left: 0
-;
-    padding-bottom: 0
-;
-}
+
 header{
     font-size: 2.5em;
     background: rgba(166,44,44,1);
@@ -43,5 +33,36 @@ nav ul li a:link,nav ul li a:visited{
 nav ul li a:hover,nav ul li a:active{
 
     background: rgba(169,61,61,1);
+
+}
+
+main {
+    width: 55%;
+    border: 3px solid #ccc;
+    margin: 10px;
+}
+
+article h1 {
+
+    font-size: 1.5em;
+    background: rgba(166, 44, 44, 1);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+
+}
+
+article {
+    background: rgba(241, 241, 241, 1);
+    border: 1px solid #ccc;
+    width: 100%;
+
+}
+
+article img {
+    width: 300px;
+    height: 300px;
+    padding-left: 25%;
 
 }
