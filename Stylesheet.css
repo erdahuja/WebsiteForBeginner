@@ -38,7 +38,7 @@ nav ul li a:hover,nav ul li a:active{
 
 main {
     width: 65%;
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
     margin: 10px;
     float: left;
 }
@@ -128,4 +128,53 @@ aside ul li {
 
 aside h2 {
     text-align: center;
+}
+
+footer {
+    font-size: 1em;
+    padding: 40px;
+    background: rgba(166, 44, 44, 1);
+    text-align: center;
+    color: white;
+
+}
+
+.clear {
+    clear: both;
+}
+
+form {
+    width: 65%;
+    float: left;
+    padding: 20px;
+    padding-bottom: 20px;
+
+}
+
+input {
+    background: cornflowerblue;
+    outline: none;
+}
+
+input[type="text"] {
+    width: 60%;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+textarea {
+    display: block;
+    border: none;
+    width: 95%;
+    outline: none;
+    background: lightgoldenrodyellow;
+    min-height: 200px;
+    border-bottom: 1px dotted;
+    padding: 30px;
+}
+
+span {
+    padding: 15px;
 }
